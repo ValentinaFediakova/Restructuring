@@ -1,0 +1,29 @@
+.BlockTitle{
+/*  margin-bottom: 100px;*/
+  margin-top: 95px;
+}
+
+.BlockTitle__title{
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.BlockTitle__line{
+  border: 1px solid rgb(85, 85, 85);
+  width: 50px;
+  margin: 0 auto;
+}
+
+.BlockTitle__subtitle{
+  font-size: 16px;
+  font-family: "RobotoSlab";
+  color: rgb(85, 85, 85);
+  text-align: center;
+  margin-top: 25px;
+}
+

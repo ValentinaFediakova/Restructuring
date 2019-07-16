@@ -1,0 +1,94 @@
+.WorkCard{
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  height: 320px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 10;
+  position: relative;
+}
+
+.WorkCard__wrap{
+/*  width: 100%;*/
+  height: 100%;
+  box-sizing: content-box;
+}
+
+.WorkCard__red-rectangle{
+  background-color: transparent;
+  position: absolute;
+  width: 360px;
+  height: 320px;
+}
+
+.WorkCard__red-rectangle:hover{
+  background-color: rgb(192, 48, 28);
+  opacity: 0.702;
+  position: absolute;
+  width: 360px;
+  height: 320px;
+  z-index: 12;
+}
+
+.WorkCard__title{
+  opacity:0;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  margin-top: 100px;
+}
+
+.WorkCard__red-rectangle:hover .WorkCard__title {
+   opacity:1;
+}
+
+/*.WorkCard__title.WorkCard__red-rectangle:hover{
+  font-size: 18px;
+  z-index: 13;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  display: block;
+}*/
+
+.WorkCard__subtitle{
+  opacity: 0;
+  font-size: 12px;
+  font-family: "RobotoSlab";
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+}
+
+.WorkCard__red-rectangle:hover .WorkCard__subtitle {
+   opacity:1;
+}
+
+.WorkCard__button{
+  opacity: 0;
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  color: rgb(192, 48, 28);
+  text-transform: uppercase;
+  line-height: 1.714;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
+.WorkCard__red-rectangle:hover .WorkCard__button {
+   opacity:1;
+}
+
+
+

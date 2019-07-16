@@ -1,0 +1,97 @@
+.Article{
+
+}
+
+.Article__wrap{
+  padding-left: 105px;
+  padding-right: 105px;
+  padding-top: 70px;
+}
+
+.Article__img{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Article__info{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.Article__num{
+  border: 1px solid #000;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 11px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.Article__date{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(119, 119, 119);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Article__month{
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(119, 119, 119);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Article__head{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.Article__title{
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(192, 48, 28);
+  text-transform: uppercase;
+}
+
+.Article__subtitle{
+  font-size: 13px;
+  font-family: "RobotoSlab";
+  color: rgb(119, 119, 119);
+  margin-top: 10px;
+}
+
+.Article__text{
+  width: 600px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  color: rgb(85, 85, 85);
+  line-height: 1.714;
+}
+
+
+/*.Lorem_ipsum_dolor_sit_amet__consetetur_sadipsci {
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  color: rgb(85, 85, 85);
+  line-height: 1.714;
+  text-align: left;
+  position: absolute;
+  left: 730.988px;
+  top: 4327.25px;
+  width: 637px;
+  height: 110px;
+  z-index: 116;
+}*/
+

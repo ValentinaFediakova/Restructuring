@@ -1,0 +1,27 @@
+.MainCard{
+  padding-top: 35px;
+  background-image: url(./img/bgi.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 280px;
+
+}
+
+.MainCard__logo{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 103px;
+}
+
+.MainCard__menu{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  padding-right: 72px;
+  padding-top: 8px;
+}
+
+.MainCard__button{
+  text-align: center;
+  margin-top: 62px;
+}

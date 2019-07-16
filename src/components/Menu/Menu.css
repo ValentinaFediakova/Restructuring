@@ -1,0 +1,12 @@
+.Menu{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  /*  line-height: 1.714;*/
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+}
+

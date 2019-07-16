@@ -1,0 +1,25 @@
+.MainTitle{
+  margin-top: 247px;
+}
+
+.MainTitle__title{
+  font-size: 48px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+/*  line-height: 0.5;*/
+  text-align: center;
+  font-weight: 600;
+}
+
+.MainTitle__subtitle{
+  font-size: 19px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  /*  line-height: 0.5;*/
+  text-align: center;
+  margin-top: 18px;
+}
+
+
+

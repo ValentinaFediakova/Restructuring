@@ -1,0 +1,16 @@
+import React, { Component } from 'react'
+import './Logo.css'
+
+class Logo extends Component {
+  render() {
+    return (
+      <div>
+        <a href="#" className="Logo">
+          Restructuring
+        </a>
+      </div>
+    )
+  }
+}
+
+export default Logo
