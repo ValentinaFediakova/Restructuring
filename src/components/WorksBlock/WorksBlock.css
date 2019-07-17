@@ -1,3 +1,29 @@
 .WorksBlock{
   text-align: center;
 }
+
+.WorksBlock__types{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.WorksBlock__items{
+
+}
+
+.WorksBlock__type{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "RobotoSlab";
+  color: gray;
+  line-height: 1.5;
+}
+
+.WorksBlock__type_active{
+  color: red;
+}
+
