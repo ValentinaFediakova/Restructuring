@@ -1,0 +1,230 @@
+
+
+.Form {
+    height: 661px;
+}
+.Form__heading {
+    width: 462px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 94px;
+}
+.Form__heading-title {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.Form__heading-img {
+    margin-top: 25px;
+}
+.Form__heading-title-info {
+    color: #555555;
+    font-family: RobotoSlab;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 19px;
+}
+.Form__personal-information {
+    width: 233px;
+    height: 266px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 48px;
+}
+.Form__general {
+    width: 1126px;
+    margin: 0 auto;
+}
+.Form__personal-information-item {
+    padding: 15px 0px;
+}
+.Form__personal-information-item-img {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 0px;
+    margin-left: -10px;
+    margin-right: 11px;
+}
+.Form__personal-information-item-element {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+}
+.Form__personal-information-item-full {
+    color: #555555;
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 18px;
+    margin-top: 1px;
+}
+.Form__items {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 149px;
+    margin-top: 47px;
+}
+input {
+    outline: none;
+}
+input:focus {
+    /*border-color: red;*/
+}
+.Form__inputs {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+.Form__inputs-item {
+    color: #555555;
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 350px;
+    height: 44px;
+    border: 1px solid #555555;
+    margin-bottom: 2px;
+    padding-left: 14px;
+}
+.Form__inputs-item_type-margin-right {
+    margin-right: 26px;
+}
+.Form__inputs-item_error {
+    border-color: red;
+}
+.Form__big-input {
+    resize: none;
+    width: 730px;
+    height: 104px;
+    border: 1px solid #555555;
+    padding-left: 15px;
+    padding-top: 12px;
+    color: #555555;
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    outline: none;
+}
+.Form__big-input:focus {
+    border-color: red;
+}
+.Form__click-item {
+    margin-top: 17px;
+}
+.Form__click-item-button {
+    width: 170px;
+    height: 44px;
+    border: 1px solid #555555;
+    color: #555555;
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Form__click-item-button:hover {
+    border-color: red;
+    color: red;
+}
+.Form__click-item-komment-to-button {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 34px;
+}
+.Form__click-item-komment-to-button-item {
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #c0301c;
+    display: inline-block;
+    vertical-align: top;
+}
+.Form__click-item-komment-to-button-item2 {
+    font-family: RobotoSlab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #555555;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.popup-input {
+    position: fixed;
+    top: 50px;
+    left: 390px;
+    right: 0;
+    bottom: 500px;
+    width: 40%;
+    height: 300px;
+    background-color: #f7f7f7;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 80px;
+    text-align: center;
+    font-weight: 700;
+    z-index: 30;
+}
+
+.popup-input_text{
+    font-size: 40px;
+    white-space: pre-wrap;
+}
+
+.popup-input_button-yes{
+    margin-right: 0;
+    margin-top: 50px;
+    line-height: 40px;
+    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid;
+    color: #000000;
+    font-weight: 700px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup-input_button-correct{
+    margin-left: 80px;
+    margin-top: 150px;
+    line-height: 40px;
+    width: 100px;
+    background-color: #0bd9e8;
+    color: #29585b;
+    font-weight: 700px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.popup-input-button_display-none {
+    display: none;
+    font-size: 20px;
+
+}

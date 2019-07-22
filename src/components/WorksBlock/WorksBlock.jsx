@@ -81,7 +81,7 @@ class WorksBlock extends Component {
 
     // выводим на экоан список типов (1)
     const types = this.state.types.map((value, index) => {
-      let className = "WorksBlock__type"
+      let className = 'WorksBlock__type'
       if (value === this.state.activeType) {
         className = className + ' WorksBlock__type_active'
       }

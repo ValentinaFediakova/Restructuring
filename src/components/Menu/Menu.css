@@ -1,4 +1,8 @@
 .Menu{
+  text-align: right;
+}
+
+.Menu-Link {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
@@ -8,5 +12,11 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 35px;
+}
+
+.Menu-Link_red {
+  color: red;
+  text-align: right;
+  padding-top: 30px;
 }
 
