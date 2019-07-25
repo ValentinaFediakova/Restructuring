@@ -7,7 +7,7 @@ import BlockTitle from '../BlockTitle/BlockTitle'
 import WorksBlock from '../WorksBlock/WorksBlock'
 import Form from '../Form/Form'
 
-import './MainPage.css'
+import './MainPage.scss'
 
 import pic1 from '../App/img/ArticleImg/pic1.jpg'
 import pic2 from '../App/img/ArticleImg/pic2.jpg'

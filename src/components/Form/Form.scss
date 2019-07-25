@@ -1,7 +1,10 @@
-
+$Form_size1: "only screen and (max-width : 1024px)";
+$Form_size2: "only screen and (max-width : 768px)";
+$Form_size3: "only screen and (max-width : 480px)";
 
 .Form {
     height: 661px;
+    text-align: center;
 }
 .Form__heading {
     width: 462px;
@@ -34,13 +37,32 @@
     display: inline-block;
     vertical-align: top;
     margin-top: 48px;
+    text-align: left;
+
+    @media #{$Form_size1}{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
 }
 .Form__general {
     width: 1126px;
     margin: 0 auto;
+
+    @media #{$Form_size1}{
+        width: 100%;
+    }
 }
 .Form__personal-information-item {
     padding: 15px 0px;
+
+    @media #{$Form_size1}{
+        display: inline-block;
+    }
+
+    @media #{$Form_size3}{
+        display: block;
+    }
 }
 .Form__personal-information-item-img {
     display: inline-block;
@@ -73,6 +95,15 @@
     vertical-align: top;
     margin-left: 149px;
     margin-top: 47px;
+
+    @media #{$Form_size1}{
+        margin-left:0;
+        margin-top: 129px;
+    }
+    
+    @media #{$Form_size3}{
+        margin-top: 250px;
+    }
 }
 input {
     outline: none;
@@ -96,9 +127,23 @@ input:focus {
     border: 1px solid #555555;
     margin-bottom: 2px;
     padding-left: 14px;
+    
+    @media #{$Form_size1}{
+        display: block;
+        margin: 0 auto;
+    }
+    @media #{$Form_size3}{
+        width: 300px;
+    }
+        
+
 }
 .Form__inputs-item_type-margin-right {
     margin-right: 26px;
+
+    @media #{$Form_size1}{
+        margin-right: auto;
+    }
 }
 .Form__inputs-item_error {
     border-color: red;
@@ -117,6 +162,16 @@ input:focus {
     line-height: 20px;
     text-transform: uppercase;
     outline: none;
+
+    @media #{$Form_size1}{
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    @media #{$Form_size3}{
+        width: 300px;
+    }
 }
 .Form__big-input:focus {
     border-color: red;
@@ -150,6 +205,11 @@ input:focus {
     vertical-align: top;
     margin-top: 12px;
     margin-left: 34px;
+
+
+    @media #{$Form_size3}{
+        margin-left: 0px;
+    }
 }
 .Form__click-item-komment-to-button-item {
     font-family: RobotoSlab;

@@ -1,3 +1,7 @@
+$MainCard_size1: "only screen and (max-width : 1024px)";
+$MainCard_size2: "only screen and (max-width : 768px)";
+$MainCard_size3: "only screen and (max-width : 480px)";
+
 .MainCard{
   padding-top: 35px;
   background-image: url(./img/bgi.jpg);
@@ -7,18 +11,27 @@
 
 }
 
+.MainCard__wrap{
+  width: 50%;
+  margin: 0 auto;
+}
+
 .MainCard__logo{
   display: inline-block;
   vertical-align: top;
-  padding-left: 103px;
+  /*padding-left: 103px;*/
 }
 
 .MainCard__menu{
   display: inline-block;
   vertical-align: top;
   float: right;
-  padding-right: 72px;
+  /*padding-right: 72px;*/
   padding-top: 8px;
+
+  @media #{$MainCard_size2}{
+    float: none;
+  }
 }
 
 .MainCard__button{

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './WorkCard.css'
+import './WorkCard.scss'
 
 class WorkCard extends Component {
   render() {

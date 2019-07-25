@@ -1,0 +1,35 @@
+$MainPage_size1: "only screen and (max-width : 1024px)";
+$MainPage_size2: "only screen and (max-width : 768px)";
+$MainPage_size3: "only screen and (max-width : 480px)";
+
+
+.MainPage{
+
+}
+
+.About-us__wrap{
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.About-us__text{
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  color: rgb(85, 85, 85);
+  line-height: 1.714;
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin-right: 2%;
+
+  @media #{$MainPage_size3}{
+    display: block;
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+

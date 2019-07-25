@@ -1,3 +1,8 @@
+$MainTitle_size1: "only screen and (max-width : 1024px)";
+$MainTitle_size2: "only screen and (max-width : 768px)";
+$MainTitle_size3: "only screen and (max-width : 480px)";
+
+
 .MainTitle{
   margin-top: 247px;
 }
@@ -10,6 +15,10 @@
 /*  line-height: 0.5;*/
   text-align: center;
   font-weight: 600;
+
+  @media #{$MainTitle_size3}{
+    font-size: 25px;
+  }
 }
 
 .MainTitle__subtitle{

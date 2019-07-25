@@ -5,6 +5,7 @@ import './ArticlePage.css'
 import Menu from '../Menu/Menu'
 import BlockTitle from '../BlockTitle/BlockTitle'
 import Article from '../Article/Article'
+import MyEditor from '../MyEditor/MyEditor'
 
 import pic1 from '../App/img/ArticleImg/pic1.jpg'
 // import pic2 from '../App/img/ArticleImg/pic2.jpg'
@@ -55,6 +56,8 @@ class ArticlePage extends Component {
           subtitleArticle="By Khalil Uddin in Development"
           textArticle={textArticle}
         />
+
+        <MyEditor />
       </div>
     )
   }

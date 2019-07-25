@@ -1,3 +1,11 @@
+$WorkCard_size1: "only screen and (max-width : 1024px)";
+$WorkCard_size2: "only screen and (max-width : 768px)";
+$WorkCard_size3: "only screen and (max-width : 480px)";
+
+// @media #{$Article_size3}{
+//     text-align: left;
+//   }
+
 .WorkCard{
   display: inline-block;
   vertical-align: top;
@@ -10,6 +18,11 @@
   margin-bottom: 10px;
   z-index: 10;
   position: relative;
+
+  @media #{$WorkCard_size3}{
+    width: 300px;
+    height: 280px;
+  }
 }
 
 .WorkCard__wrap{
@@ -21,8 +34,8 @@
 .WorkCard__red-rectangle{
   background-color: transparent;
   position: absolute;
-  width: 360px;
-  height: 320px;
+  width: 310px;
+  height: 280px;
 }
 
 .WorkCard__red-rectangle:hover{
@@ -32,6 +45,11 @@
   width: 360px;
   height: 320px;
   z-index: 12;
+
+  @media #{$WorkCard_size3}{
+    width: 310px;
+    height: 280px;
+  }
 }
 
 .WorkCard__title{

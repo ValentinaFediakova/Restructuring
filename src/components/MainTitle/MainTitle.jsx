@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './MainTitle.css'
+import './MainTitle.scss'
 
 class MainTitle extends Component {
   render() {

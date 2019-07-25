@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './MainCard.css'
+import './MainCard.scss'
 
 import Menu from '../Menu/Menu'
 import Logo from '../Logo/Logo'
@@ -14,14 +14,14 @@ class MainCard extends React.Component {
 
     return (
       <div className="MainCard">
-        <div className="MainCard__logo">
-          <Logo />
+        <div className="MainCard__wrap">
+          <div className="MainCard__logo">
+            <Logo />
+          </div>
+          <div className="MainCard__menu">
+            <Menu />
+          </div>
         </div>
-
-        <div className="MainCard__menu">
-          <Menu />
-        </div>
-
         <MainTitle />
 
         <div className="MainCard__button">

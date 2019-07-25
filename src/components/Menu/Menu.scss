@@ -1,12 +1,21 @@
+$Menu_size1: "only screen and (max-width : 1024px)";
+$Menu_size2: "only screen and (max-width : 768px)";
+$Menu_size3: "only screen and (max-width : 480px)";
+
+
+
 .Menu{
   text-align: right;
+
+  // @media #{$Menu_size3}{
+  //   text-align: left;
+  // }
 }
 
 .Menu-Link {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
-  /*  line-height: 1.714;*/
   text-align: left;
   text-decoration: none;
   display: inline-block;

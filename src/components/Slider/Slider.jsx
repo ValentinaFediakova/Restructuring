@@ -28,6 +28,9 @@ class Slider extends Component {
             0: {
               items: 1,
             },
+            766: {
+              items: 2,
+            },
             1024: {
               items: 4,
             },
@@ -60,7 +63,7 @@ class Slider extends Component {
             </div>
           </div>
 
-          <div>
+          <div className="Slider__wrap-item">
             <img src={Slide2} className="Slider__img" />
             <div className="Slider__up">
               <div className="Slider__up-social">
@@ -83,7 +86,7 @@ class Slider extends Component {
               <div className="Slider__info-subtitle">Lead WordPress Developer</div>
             </div>
           </div>
-          <div>
+          <div className="Slider__wrap-item">
             <img src={Slide3} className="Slider__img" />
             <div className="Slider__up">
               <div className="Slider__up-social">
@@ -106,7 +109,7 @@ class Slider extends Component {
               <div className="Slider__info-subtitle">Sr. Web Developer</div>
             </div>
           </div>
-          <div>
+          <div className="Slider__wrap-item">
             <img src={Slide4} className="Slider__img" />
             <div className="Slider__up">
               <div className="Slider__up-social">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Form.css'
+import './Form.scss'
 
 import addressPic from './img/address.png'
 import hotlinePic from './img/hotline.png'
