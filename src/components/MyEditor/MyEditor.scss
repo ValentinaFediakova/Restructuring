@@ -1,0 +1,44 @@
+.MyEditor{
+  width: 70%;  
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "RobotoSlab";
+  font-size: 14px;
+}
+
+.MyEditor-border {
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.MyEditor-btns {
+  margin-bottom: 10px;
+}
+
+.MyEditor-editor {
+
+}
+
+.Button-style{
+  border: none;
+  background-color: #fff;
+  color: #a79e9e;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.Button-style__darker{
+  color: #101010;
+  border: none;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
